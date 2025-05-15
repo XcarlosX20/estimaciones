@@ -49,11 +49,11 @@ const Navigation = ({ isOpen, onClose }: NavigationProps) => {
             Sobre Nosotros
           </Link>
           <Link
-            href="/services"
+            href="/confidence-interval"
             className="text-white text-xl hover:text-gray-300"
             onClick={onClose}
           >
-            Servicios
+            Calculadora IC
           </Link>
           <Link
             href="/contact"

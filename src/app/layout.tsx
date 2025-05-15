@@ -22,7 +22,7 @@ export default function RootLayout({
         <div className="min-h-screen flex flex-col">
           <Header />
           <main className="flex-grow">
-            {children}
+        {children}
           </main>
           <Footer />
         </div>
