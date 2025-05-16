@@ -119,7 +119,9 @@ export default function Home() {
             <p className="text-lg leading-relaxed mb-6">
                 La estimación es una herramienta fundamental en la estadística que nos permite tomar decisiones informadas a partir de datos limitados. Comprender la diferencia entre la estimación puntual y por intervalo es clave para interpretar correctamente los resultados y aplicarlos de manera efectiva en cualquier campo, desde la ciencia hasta los negocios. ¡Sigue explorando este fascinante mundo!
             </p>
-            <a href="#" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full transition duration-300">Volver Arriba</a>
+            <Link href="#" className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full transition duration-300">
+              Volver Arriba
+            </Link>
         </section>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
@@ -148,7 +150,7 @@ export default function Home() {
             height={16}
           />
           Calculadora IC
-        </a>
+        </Link>
       </footer>
     </div>
   );

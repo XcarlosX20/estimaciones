@@ -13,14 +13,14 @@ const Footer = () => {
         <div className="mt-8 pt-8 border-t border-gray-800 text-center">
           <p className="text-gray-400">
             Desarrollado por{' '}
-            <a 
+            <Link 
               href="https://github.com/XcarlosX20" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="font-semibold text-white hover:text-gray-300 transition-colors"
             >
               Carlos Sierra
-            </a>{' '}
+            </Link>{' '}
             y{' '}
             <span className="font-semibold text-white">Moises Coronado</span>
           </p>
