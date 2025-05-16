@@ -131,7 +131,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/file.svg"
+            src="https://res.cloudinary.com/do5yybhwe/image/upload/v1747410175/xqkojzzgmfvvcrftx3q8.svg"
             alt="File icon"
             width={16}
             height={16}
@@ -144,7 +144,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/window.svg"
+            src="https://res.cloudinary.com/do5yybhwe/image/upload/v1747410175/lmtwkakagchgcq7ney6q.svg"
             alt="Window icon"
             width={16}
             height={16}
