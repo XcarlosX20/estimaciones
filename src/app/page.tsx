@@ -10,7 +10,7 @@ export default function Home() {
                 En el vasto mundo de la estadística, a menudo nos encontramos con situaciones donde es imposible estudiar a cada miembro de una población completa. Imagina que quieres saber la altura promedio de todos los hombres en Venezuela, o la esperanza de vida de un nuevo modelo de bombilla. ¡Sería una tarea monumental!
             </p>
             <p className="text-lg leading-relaxed">
-                Aquí es donde entra en juego la **estimación**. En lugar de observar a toda la población, tomamos una pequeña porción representativa, llamada **muestra**, y usamos la información de esa muestra para hacer una "conjetura educada" sobre las características de la población total. Existen dos enfoques principales para hacer estas conjeturas: la **estimación puntual** y la **estimación por intervalo**.
+                Aquí es donde entra en juego la estimación. En lugar de observar a toda la población, tomamos una pequeña porción representativa, llamada muestra, y usamos la información de esa muestra para hacer una &quot;conjetura educada&quot; sobre las características de la población total. Existen dos enfoques principales para hacer estas conjeturas: la estimación puntual y la estimación por intervalo.
             </p>
         </section>
 
@@ -19,7 +19,7 @@ export default function Home() {
         <section id="estimacion-puntual" className="mb-12">
             <h2 className="text-3xl font-semibold mb-4">Estimación Puntual: Un Único Valor para Representar la Verdad</h2>
             <p className="text-lg leading-relaxed mb-4">
-                La **estimación puntual** es el enfoque más directo y simple. Consiste en utilizar un **único valor** obtenido de nuestra muestra para estimar un parámetro desconocido de la población. Piensa en ella como tu "mejor adivinanza" sobre ese valor real.
+                La estimación puntual es el enfoque más directo y simple. Consiste en utilizar un único valor obtenido de nuestra muestra para estimar un parámetro desconocido de la población. Piensa en ella como tu &quot;mejor adivinanza&quot; sobre ese valor real.
             </p>
             <div className="bg-green-50 border-l-4 border-green-500 text-gray-800 p-4 mb-6" role="alert">
                 <p className="font-bold">¿Cómo funciona?</p>
@@ -28,10 +28,10 @@ export default function Home() {
 
             <h3 className="text-2xl font-medium mb-3">Ejemplo Práctico:</h3>
             <p className="text-lg leading-relaxed mb-4">
-                Supongamos que una empresa de software lanza una nueva actualización y quiere estimar el tiempo promedio que tarda un usuario en descargarla. No pueden medir a todos los millones de usuarios, así que seleccionan una muestra aleatoria de **100 usuarios** y registran su tiempo de descarga.
+                Supongamos que una empresa de software lanza una nueva actualización y quiere estimar el tiempo promedio que tarda un usuario en descargarla. No pueden medir a todos los millones de usuarios, así que seleccionan una muestra aleatoria de 100 usuarios y registran su tiempo de descarga.
             </p>
             <p className="text-lg leading-relaxed mb-4">
-                Si el **tiempo promedio de descarga en esa muestra de 100 usuarios es de 7.5 segundos**, entonces la **estimación puntual** del tiempo promedio de descarga para *todos* los usuarios de la población sería **7.5 segundos**.
+                Si el tiempo promedio de descarga en esa muestra de 100 usuarios es de 7.5 segundos, entonces la estimación puntual del tiempo promedio de descarga para todos los usuarios de la población sería 7.5 segundos.
             </p>
             <h3 className="text-2xl font-medium mb-3">Ventajas:</h3>
             <ul className="list-disc list-inside space-y-2 mb-4 text-lg">
@@ -50,7 +50,7 @@ export default function Home() {
         <section id="estimacion-por-intervalo" className="mb-12">
             <h2 className="text-3xl font-semibold mb-4">Estimación por Intervalo: Un Rango de Posibilidades con Confianza</h2>
             <p className="text-lg leading-relaxed mb-4">
-                A diferencia de la estimación puntual, la **estimación por intervalo** no nos da un único número, sino un **rango de valores** dentro del cual esperamos que se encuentre el parámetro real de la población. Lo más importante es que esta estimación viene acompañada de un nivel de **confianza**.
+                A diferencia de la estimación puntual, la estimación por intervalo no nos da un único número, sino un rango de valores dentro del cual esperamos que se encuentre el parámetro real de la población. Lo más importante es que esta estimación viene acompañada de un nivel de confianza.
             </p>
             <div className="bg-purple-50 border-l-4 border-purple-500 text-gray-800 p-4 mb-6" role="alert">
                 <p className="font-bold">¿Cómo funciona?</p>
@@ -59,10 +59,10 @@ export default function Home() {
 
             <h3 className="text-2xl font-medium mb-3">Ejemplo Práctico (Continuación):</h3>
             <p className="text-lg leading-relaxed mb-4">
-                Volviendo al ejemplo de la descarga del software. Usando la misma muestra de 100 usuarios y su tiempo promedio de 7.5 segundos, podríamos construir un **intervalo de confianza del 95%**.
+                Volviendo al ejemplo de la descarga del software. Usando la misma muestra de 100 usuarios y su tiempo promedio de 7.5 segundos, podríamos construir un intervalo de confianza del 95%.
             </p>
             <p className="text-lg leading-relaxed mb-4">
-                El resultado podría ser: "Con un **95% de confianza**, el tiempo promedio de descarga para *todos* los usuarios de la población se encuentra entre **7.1 segundos y 7.9 segundos**."
+                El resultado podría ser: &quot;Con un 95% de confianza, el tiempo promedio de descarga para todos los usuarios de la población se encuentra entre 7.1 segundos y 7.9 segundos.&quot;
             </p>
             <p className="text-lg leading-relaxed mb-4">
                 Esto es mucho más informativo, ya que nos da una idea del margen de error y la fiabilidad de nuestra estimación.
@@ -89,7 +89,7 @@ export default function Home() {
             </p>
             <ul className="list-disc list-inside space-y-3 mb-6 text-lg">
                 <li>
-                    Utiliza la **Estimación Puntual** cuando:
+                    Utiliza la Estimación Puntual cuando:
                     <ul className="list-circle list-inside ml-5 mt-1">
                         <li>Necesitas una respuesta rápida y simple.</li>
                         <li>Estás realizando un análisis exploratorio inicial y solo quieres una primera idea.</li>
@@ -97,17 +97,17 @@ export default function Home() {
                     </ul>
                 </li>
                 <li>
-                    Utiliza la **Estimación por Intervalo** cuando:
+                    Utiliza la Estimación por Intervalo cuando:
                     <ul className="list-circle list-inside ml-5 mt-1">
                         <li>Necesitas una medida de la precisión de tu estimación.</li>
-                        <li>Quieres comunicar el grado de incertidumbre asociado a tu "adivinanza".</li>
+                        <li>Quieres comunicar el grado de incertidumbre asociado a tu &quot;adivinanza&quot;.</li>
                         <li>Estás tomando decisiones importantes basadas en la estimación (por ejemplo, decisiones de negocio, resultados de investigación).</li>
                         <li>Es fundamental entender el rango de valores posibles para el parámetro de la población.</li>
                     </ul>
                 </li>
             </ul>
             <p className="text-lg leading-relaxed">
-                En la práctica, los estadísticos a menudo usan la **estimación puntual** como un primer paso, y luego la complementan con la **estimación por intervalo** para ofrecer una imagen más completa y confiable del parámetro de la población.
+                En la práctica, los estadísticos a menudo usan la estimación puntual como un primer paso, y luego la complementan con la estimación por intervalo para ofrecer una imagen más completa y confiable del parámetro de la población.
             </p>
         </section>
 
