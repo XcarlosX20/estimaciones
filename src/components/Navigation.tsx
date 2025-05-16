@@ -42,25 +42,11 @@ const Navigation = ({ isOpen, onClose }: NavigationProps) => {
             Inicio
           </Link>
           <Link
-            href="/about"
-            className="text-white text-xl hover:text-gray-300"
-            onClick={onClose}
-          >
-            Sobre Nosotros
-          </Link>
-          <Link
             href="/confidence-interval"
             className="text-white text-xl hover:text-gray-300"
             onClick={onClose}
           >
             Calculadora IC
-          </Link>
-          <Link
-            href="/contact"
-            className="text-white text-xl hover:text-gray-300"
-            onClick={onClose}
-          >
-            Contacto
           </Link>
         </nav>
       </div>

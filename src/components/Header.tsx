@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import Navigation from './Navigation';
+import Image from 'next/image';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,34 +12,28 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-white shadow-md">
+    <header className="bg-gray-500 shadow-md">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link href="/" className="text-xl font-bold text-gray-900">
-            Logo
+          <Link href="/" className="text-xl font-bold text-white">
+            <Image src="/logo-pnfi.jpg" alt="Logo" width={100} height={100} />
           </Link>
 
           {/* Desktop Navigation - hidden on mobile */}
           <nav className="hidden md:flex space-x-8">
-            <Link href="/" className="text-gray-600 hover:text-gray-900">
+            <Link href="/" className="text-white hover:text-gray-200">
               Inicio
             </Link>
-            <Link href="/about" className="text-gray-600 hover:text-gray-900">
-              Sobre Nosotros
-            </Link>
-            <Link href="/confidence-interval" className="text-gray-600 hover:text-gray-900">
+            <Link href="/confidence-interval" className="text-white hover:text-gray-200">
               Calculadora IC
-            </Link>
-            <Link href="/contact" className="text-gray-600 hover:text-gray-900">
-              Contacto
             </Link>
           </nav>
 
           {/* Hamburger Menu Button - only visible on mobile */}
           <button
             onClick={toggleMenu}
-            className="md:hidden text-gray-600 hover:text-gray-900"
+            className="md:hidden text-white hover:text-gray-200"
             aria-label="Toggle menu"
           >
             <svg
