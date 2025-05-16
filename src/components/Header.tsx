@@ -17,7 +17,7 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="text-xl font-bold text-white">
-            <Image src="/logo-pnfi.jpg" alt="Logo" width={100} height={100} />
+            <Image loading='lazy' src="https://res.cloudinary.com/do5yybhwe/image/upload/v1747409779/mnlwriencjty7udjzpdo.jpg" alt="Logo" width={100} height={100} />
           </Link>
 
           {/* Desktop Navigation - hidden on mobile */}
